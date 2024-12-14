@@ -1,7 +1,9 @@
 Install Packages
+
  pip install -r requirements.txt
 
 Services
+
     Lottery : POST http://127.0.0.1:5000/lottery
               Body JSON {"participants":["1","2","3","4"]}
               Response {"winner":index}
@@ -11,4 +13,5 @@ Services
              Response {"response":response}
 
 .env
+
     GEMINI_API_KEY = ***********************
